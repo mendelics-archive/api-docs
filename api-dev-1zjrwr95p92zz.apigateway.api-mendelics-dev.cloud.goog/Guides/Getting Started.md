@@ -2,21 +2,13 @@
 ---
 
 ### Before you begin
-1. Create a new [Cloud Platform project](https://console.developers.google.com/projectcreate).
-2. [Enable billing](https://cloud.google.com/billing/docs/how-to/modify-project#enable_billing_for_a_project) for your project.
+1. To access the Mendelics API Gateway you will need to contact us in order to obtain a service account and a secret that you will use to generate a [JWT](https://jwt.io/) token that you will have to use to comunicate with our API.
 
-### Creating an API key
-1. [Create an API key](https://console.developers.google.com/apis/credentials) in the Google APIs Console.
-2. Click **Create credentials**, then select **API key**.
-3. Copy the key to the clipboard.
-4. Click **Close**.
+### Generating a JWT token
+There are many tutorials on the internet explaining how to get a JWT token from a GCP service account. The google tutorial can be found in this [link](https://cloud.google.com/api-gateway/docs/authenticate-service-account#making_an_authenticated_request). 
 
-### Enable the API
-
-Before you can make calls to this API, you need to enable it in the Cloud Platform project you created.
-1. [View this API](https://console.developers.google.com/apis/api/{{apiHost}}/overview) in the Google APIs Console.
-2. Click the **Enable** button, then wait for it to complete.
-3. You can now call the API using the API key you created!
+### Send the singnet JWT token to api-gateway
+In every request to the gateway you will have to sent a signed token in every request. The [link](https://cloud.google.com/api-gateway/docs/authenticate-service-account#making_an_authenticated_request) also show how to send the token in the `Authorization: Bearer` header.
 
 ### Using the API
 
