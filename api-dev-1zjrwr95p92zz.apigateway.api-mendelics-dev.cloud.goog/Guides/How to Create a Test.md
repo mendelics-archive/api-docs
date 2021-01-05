@@ -20,7 +20,7 @@ The body that we will send to you will have the following format:
 }
 ```
 
-Where `<logistica_codigo>` is the identifier of the logistics request, `<barcodeX>` X-th barcode of each test that you can create. The `observacao` will be generally empty but in some cases the Mendelics Logistics Team may have importat details about de logistics request.
+Where `<logistica_codigo>` is the identifier of the logistics request, `<barcodeX>` X-th barcode of each test that you can create. The `observacao` will be generally empty but in some cases the Mendelics Logistics Team may have important details about the logistics request.
 
 **The notification may happen more than once for the same `logistica_codigo`. Is important to consider only the last one.**
 
