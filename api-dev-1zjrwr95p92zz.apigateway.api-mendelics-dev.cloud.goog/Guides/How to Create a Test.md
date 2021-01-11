@@ -33,8 +33,9 @@ After creating and sending the test to Mendelics, the laboratory will analyze th
 ```
 {
     "sample_code": "COV1234567890",
-    "result": "<result>"
+    "type": "<type>",
+    "result": "<result>",
 }
 ```
 
-Where `<result>` can be `negative`, `positive` or `non_compliance`. 
+Where `<result>` can be `negative`, `positive` or `non_compliance`; `<type>` is a type of test, if it is a COVID test it will be `covid_whitelabel`.
