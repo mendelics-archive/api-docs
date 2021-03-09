@@ -3,7 +3,7 @@
 
 ### Resumo
 
-Para criar um teste é necessário primeiramente criar uma `ordem de pagamento`. Esta ordem de pagamento - também chamado de `pedido` - retorna um código, pelo qual você poderá usar para criar ordens de logística.
+Para criar um teste é necessário primeiramente criar uma `ordem de pagamento`. Esta ordem de pagamento - também chamado de `pedido` - retorna um código, pelo qual você poderá criar ordens de logística.
 
 Após criar uma ordem de logística, informamos através de uma `função de callbak` quais testes podem ser criados e a lista de barcodes que podem ser associadas. Estes barcodes são as identificações únicas dos testes.
 
