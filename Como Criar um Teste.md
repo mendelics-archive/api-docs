@@ -35,7 +35,7 @@ A função de callback enviará um request contendo um BODY com o seguinte forma
 }
 ```
 
-O campo `logistica_codigo` indica o identificador única desta ordem de logística. O campo `barcodes` é uma lista de strings contendo uma série de códigos únicos de material alocados para você. O campo `observacao` contém detalhes extras que o time de Logística pode dar sobre sua ordem de logística, mas em geral virá vazio.
+O campo `logistica_codigo` indica o identificador único desta ordem de logística. O campo `barcodes` é uma lista de strings contendo uma série de códigos únicos de material alocados para você. O campo `observacao` contém detalhes extras que o time de Logística pode dar sobre sua ordem de logística, mas em geral virá vazio.
 
 **Detalhe importante: a notificação via callback pode acontecer mais de uam vez para o mesmo código de logística. É importante considerar apenas a notificação mais recente.**
 
