@@ -23,7 +23,7 @@ Uma ordem de logística é necessária para que a Equipe de Logística da Mendel
 
 Para ver detalhes de como criar uma ordem de logística, abra [o link](https://endpointsportal.api-mendelics-dev.cloud.goog/docs/api-dev-1zjrwr95p92zz.apigateway.api-mendelics-dev.cloud.goog/0/routes/logistica/order/request_from_covid_payment/post) com os detalhes do respecitvo endpoint.
 
-Após a criação da ordem de logística, a Mendelics iniciará o processo de alocação de material para o requisitante. Este processo pode demorar um pouco porém assim que encerrado você será notificado através de uma função de callback. Nesta função você receberá a lista com os códigos de tubo.
+Após a criação da ordem de logística, a Mendelics iniciará o processo de alocação de material para o requisitante. Este processo pode demorar um pouco, porém assim que encerrado você será notificado através de uma função de callback. Nesta função você receberá a lista com os códigos de tubo.
 
 A função de callback enviará um request contendo um BODY com o seguinte formato JSON:
 
